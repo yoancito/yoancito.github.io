@@ -1,0 +1,54 @@
+.container {
+    border: 1px solid;
+    margin: 50px;
+    margin-top: 10px;
+}
+.logo {
+    padding: 10px;
+}
+
+.content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.bold{
+    font-weight: 500;
+}
+.normal{
+    font-weight: 200;
+}
+.topic {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.link {
+    text-decoration: none;
+    color:aliceblue;
+    cursor: crosshair;
+}
+.link:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.filterwhite{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(306deg) brightness(103%) contrast(101%);
+}
+.subcontainer{
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+.master{
+    position: fixed;
+width: 80%;
+max-width: 1200px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+span{
+    color: slategray;
+}
+body{
+    background-color: rgb(20, 20, 20); color: aliceblue; font-family: 'Poppins', sans-serif;
+}

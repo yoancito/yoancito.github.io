@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/35085646?v=4">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>$.getJSON("https://api.ipify.org?format=json", function(data) {$("#ip").html(data.ip);})</script>
+    <title>YoanSinH</title>
+</head>
+
+<body>
+    <div class="master">
+    <p class="content" style="color: darkgrey;">$whois</p>
+    <div class="container" style="margin-bottom: 10px;">
+        <div class="content" style="margin-top: 10px; display: flex;">
+            <img class="logo" src="./logo.svg" alt="yoansinh"
+                style="filter: invert(100%) sepia(0%) saturate(7484%) hue-rotate(348deg) brightness(107%) contrast(105%);"
+                width="70">
+            <div style="margin: inherit;">
+                <h3 class="topic bold">~/Yoan</h3>
+                <p class="topic normal">$ Fullstack developer</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container subcontainer" id="directories">
+        <div class="content">
+            <div>
+                <br />
+                <h3 class="topic bold" style="color: darkgrey;">./Directories</h3>
+                <p class="topic normal"><a class="link" href="/projects.html">~/projects</a></p>
+                <p class="topic normal"><a class="link" href="#">~/about</a></p>
+                <p class="topic normal"><a class="link" href="/contact.html">~/contact</a></p>
+                <br/>
+            </div>
+        </div>
+    </div>
+
+    <div class="container subcontainer" id="links">
+        <div class="content">
+            <div style="margin: 5px; margin-top: 10px;">
+                <a href="https://linkedin.com/in/yoansinh" target="_blank"><img class="filterwhite" src="https://simpleicons.org/icons/linkedin.svg" width="25" alt="linkedin"></a>
+                <a href="https://github.com/yoansinh" target="_blank"><img class="filterwhite" src="https://simpleicons.org/icons/github.svg" width="25" alt="github"></a>
+            </div>
+        </div>
+    </div>
+    <p class="content" style="color: darkgrey;">#welcome <span id="ip" style="color: darkgrey;"></span></p>
+    </div>
+</body>
+</html>
